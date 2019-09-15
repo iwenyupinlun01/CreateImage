@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F6C72F7F5BD0D8D6A919361 /* libPods-JKCreateImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D7463918F6CED8D6658DFB /* libPods-JKCreateImage.a */; };
+		E20D1FCB21422B2F0016A044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D1FCA21422B2F0016A044 /* AppDelegate.m */; };
+		E20D1FCE21422B300016A044 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D1FCD21422B300016A044 /* ViewController.m */; };
+		E20D1FD121422B300016A044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20D1FCF21422B300016A044 /* Main.storyboard */; };
+		E20D1FD321422B310016A044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20D1FD221422B310016A044 /* Assets.xcassets */; };
+		E20D1FD621422B310016A044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20D1FD421422B310016A044 /* LaunchScreen.storyboard */; };
+		E20D1FD921422B310016A044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D1FD821422B310016A044 /* main.m */; };
+		E20D1FE321422B310016A044 /* JKCreateImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D1FE221422B310016A044 /* JKCreateImageTests.m */; };
+		E20D1FEE21422B310016A044 /* JKCreateImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D1FED21422B310016A044 /* JKCreateImageUITests.m */; };
+		E20D1FFE214256280016A044 /* JKImageGeneration.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D1FFD214256280016A044 /* JKImageGeneration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E20D1FDF21422B310016A044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20D1FBE21422B2F0016A044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20D1FC521422B2F0016A044;
+			remoteInfo = JKCreateImage;
+		};
+		E20D1FEA21422B310016A044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20D1FBE21422B2F0016A044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20D1FC521422B2F0016A044;
+			remoteInfo = JKCreateImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F52A89FAD8D7D8E66C7F0D0 /* Pods-JKCreateImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKCreateImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKCreateImage/Pods-JKCreateImage.release.xcconfig"; sourceTree = "<group>"; };
+		1EEE019A6BD9799C1AE9DE9F /* Pods-JKCreateImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKCreateImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKCreateImage/Pods-JKCreateImage.debug.xcconfig"; sourceTree = "<group>"; };
+		28D7463918F6CED8D6658DFB /* libPods-JKCreateImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKCreateImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D1FC621422B2F0016A044 /* JKCreateImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKCreateImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D1FC921422B2F0016A044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E20D1FCA21422B2F0016A044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E20D1FCC21422B300016A044 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E20D1FCD21422B300016A044 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E20D1FD021422B300016A044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E20D1FD221422B310016A044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E20D1FD521422B310016A044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E20D1FD721422B310016A044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20D1FD821422B310016A044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E20D1FDE21422B310016A044 /* JKCreateImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKCreateImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D1FE221422B310016A044 /* JKCreateImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCreateImageTests.m; sourceTree = "<group>"; };
+		E20D1FE421422B310016A044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20D1FE921422B310016A044 /* JKCreateImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKCreateImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D1FED21422B310016A044 /* JKCreateImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCreateImageUITests.m; sourceTree = "<group>"; };
+		E20D1FEF21422B310016A044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20D1FFC214256280016A044 /* JKImageGeneration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKImageGeneration.h; sourceTree = "<group>"; };
+		E20D1FFD214256280016A044 /* JKImageGeneration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKImageGeneration.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20D1FC321422B2F0016A044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6C72F7F5BD0D8D6A919361 /* libPods-JKCreateImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D1FDB21422B310016A044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D1FE621422B310016A044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B06AC86F1F528D8BC0562E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE019A6BD9799C1AE9DE9F /* Pods-JKCreateImage.debug.xcconfig */,
+				0F52A89FAD8D7D8E66C7F0D0 /* Pods-JKCreateImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB47742906C1F9A78F654C19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28D7463918F6CED8D6658DFB /* libPods-JKCreateImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20D1FBD21422B2F0016A044 = {
+			isa = PBXGroup;
+			children = (
+				E20D1FC821422B2F0016A044 /* JKCreateImage */,
+				E20D1FE121422B310016A044 /* JKCreateImageTests */,
+				E20D1FEC21422B310016A044 /* JKCreateImageUITests */,
+				E20D1FC721422B2F0016A044 /* Products */,
+				4B06AC86F1F528D8BC0562E8 /* Pods */,
+				AB47742906C1F9A78F654C19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E20D1FC721422B2F0016A044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E20D1FC621422B2F0016A044 /* JKCreateImage.app */,
+				E20D1FDE21422B310016A044 /* JKCreateImageTests.xctest */,
+				E20D1FE921422B310016A044 /* JKCreateImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20D1FC821422B2F0016A044 /* JKCreateImage */ = {
+			isa = PBXGroup;
+			children = (
+				E20D1FC921422B2F0016A044 /* AppDelegate.h */,
+				E20D1FCA21422B2F0016A044 /* AppDelegate.m */,
+				E20D1FCC21422B300016A044 /* ViewController.h */,
+				E20D1FCD21422B300016A044 /* ViewController.m */,
+				E20D1FFB2142552C0016A044 /* JKImageGeneration */,
+				E20D1FCF21422B300016A044 /* Main.storyboard */,
+				E20D1FD221422B310016A044 /* Assets.xcassets */,
+				E20D1FD421422B310016A044 /* LaunchScreen.storyboard */,
+				E20D1FD721422B310016A044 /* Info.plist */,
+				E20D1FD821422B310016A044 /* main.m */,
+			);
+			path = JKCreateImage;
+			sourceTree = "<group>";
+		};
+		E20D1FE121422B310016A044 /* JKCreateImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				E20D1FE221422B310016A044 /* JKCreateImageTests.m */,
+				E20D1FE421422B310016A044 /* Info.plist */,
+			);
+			path = JKCreateImageTests;
+			sourceTree = "<group>";
+		};
+		E20D1FEC21422B310016A044 /* JKCreateImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E20D1FED21422B310016A044 /* JKCreateImageUITests.m */,
+				E20D1FEF21422B310016A044 /* Info.plist */,
+			);
+			path = JKCreateImageUITests;
+			sourceTree = "<group>";
+		};
+		E20D1FFB2142552C0016A044 /* JKImageGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				E20D1FFC214256280016A044 /* JKImageGeneration.h */,
+				E20D1FFD214256280016A044 /* JKImageGeneration.m */,
+			);
+			path = JKImageGeneration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20D1FC521422B2F0016A044 /* JKCreateImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20D1FF221422B310016A044 /* Build configuration list for PBXNativeTarget "JKCreateImage" */;
+			buildPhases = (
+				CDF1DD658AD14403D9FF9541 /* [CP] Check Pods Manifest.lock */,
+				E20D1FC221422B2F0016A044 /* Sources */,
+				E20D1FC321422B2F0016A044 /* Frameworks */,
+				E20D1FC421422B2F0016A044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKCreateImage;
+			productName = JKCreateImage;
+			productReference = E20D1FC621422B2F0016A044 /* JKCreateImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E20D1FDD21422B310016A044 /* JKCreateImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20D1FF521422B310016A044 /* Build configuration list for PBXNativeTarget "JKCreateImageTests" */;
+			buildPhases = (
+				E20D1FDA21422B310016A044 /* Sources */,
+				E20D1FDB21422B310016A044 /* Frameworks */,
+				E20D1FDC21422B310016A044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20D1FE021422B310016A044 /* PBXTargetDependency */,
+			);
+			name = JKCreateImageTests;
+			productName = JKCreateImageTests;
+			productReference = E20D1FDE21422B310016A044 /* JKCreateImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E20D1FE821422B310016A044 /* JKCreateImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20D1FF821422B310016A044 /* Build configuration list for PBXNativeTarget "JKCreateImageUITests" */;
+			buildPhases = (
+				E20D1FE521422B310016A044 /* Sources */,
+				E20D1FE621422B310016A044 /* Frameworks */,
+				E20D1FE721422B310016A044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20D1FEB21422B310016A044 /* PBXTargetDependency */,
+			);
+			name = JKCreateImageUITests;
+			productName = JKCreateImageUITests;
+			productReference = E20D1FE921422B310016A044 /* JKCreateImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20D1FBE21422B2F0016A044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "JK科技有限公司";
+				TargetAttributes = {
+					E20D1FC521422B2F0016A044 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E20D1FDD21422B310016A044 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E20D1FC521422B2F0016A044;
+					};
+					E20D1FE821422B310016A044 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E20D1FC521422B2F0016A044;
+					};
+				};
+			};
+			buildConfigurationList = E20D1FC121422B2F0016A044 /* Build configuration list for PBXProject "JKCreateImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E20D1FBD21422B2F0016A044;
+			productRefGroup = E20D1FC721422B2F0016A044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20D1FC521422B2F0016A044 /* JKCreateImage */,
+				E20D1FDD21422B310016A044 /* JKCreateImageTests */,
+				E20D1FE821422B310016A044 /* JKCreateImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20D1FC421422B2F0016A044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D1FD621422B310016A044 /* LaunchScreen.storyboard in Resources */,
+				E20D1FD321422B310016A044 /* Assets.xcassets in Resources */,
+				E20D1FD121422B300016A044 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D1FDC21422B310016A044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D1FE721422B310016A044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDF1DD658AD14403D9FF9541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKCreateImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20D1FC221422B2F0016A044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D1FCE21422B300016A044 /* ViewController.m in Sources */,
+				E20D1FD921422B310016A044 /* main.m in Sources */,
+				E20D1FFE214256280016A044 /* JKImageGeneration.m in Sources */,
+				E20D1FCB21422B2F0016A044 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D1FDA21422B310016A044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D1FE321422B310016A044 /* JKCreateImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20D1FE521422B310016A044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D1FEE21422B310016A044 /* JKCreateImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E20D1FE021422B310016A044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20D1FC521422B2F0016A044 /* JKCreateImage */;
+			targetProxy = E20D1FDF21422B310016A044 /* PBXContainerItemProxy */;
+		};
+		E20D1FEB21422B310016A044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20D1FC521422B2F0016A044 /* JKCreateImage */;
+			targetProxy = E20D1FEA21422B310016A044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E20D1FCF21422B300016A044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20D1FD021422B300016A044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E20D1FD421422B310016A044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20D1FD521422B310016A044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E20D1FF021422B310016A044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E20D1FF121422B310016A044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E20D1FF321422B310016A044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEE019A6BD9799C1AE9DE9F /* Pods-JKCreateImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKCreateImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKCreateImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E20D1FF421422B310016A044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F52A89FAD8D7D8E66C7F0D0 /* Pods-JKCreateImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKCreateImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKCreateImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E20D1FF621422B310016A044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKCreateImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKCreateImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKCreateImage.app/JKCreateImage";
+			};
+			name = Debug;
+		};
+		E20D1FF721422B310016A044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKCreateImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKCreateImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKCreateImage.app/JKCreateImage";
+			};
+			name = Release;
+		};
+		E20D1FF921422B310016A044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKCreateImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKCreateImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKCreateImage;
+			};
+			name = Debug;
+		};
+		E20D1FFA21422B310016A044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKCreateImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKCreateImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKCreateImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20D1FC121422B2F0016A044 /* Build configuration list for PBXProject "JKCreateImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D1FF021422B310016A044 /* Debug */,
+				E20D1FF121422B310016A044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20D1FF221422B310016A044 /* Build configuration list for PBXNativeTarget "JKCreateImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D1FF321422B310016A044 /* Debug */,
+				E20D1FF421422B310016A044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20D1FF521422B310016A044 /* Build configuration list for PBXNativeTarget "JKCreateImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D1FF621422B310016A044 /* Debug */,
+				E20D1FF721422B310016A044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20D1FF821422B310016A044 /* Build configuration list for PBXNativeTarget "JKCreateImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D1FF921422B310016A044 /* Debug */,
+				E20D1FFA21422B310016A044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E20D1FBE21422B2F0016A044 /* Project object */;
+}
